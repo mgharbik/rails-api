@@ -1,7 +1,22 @@
 == README
 
+rails-api
+https://github.com/rails-api/rails-api
+
+rack-cors
+https://github.com/cyu/rack-cors
+
+active model serializer
+https://github.com/rails-api/active_model_serializers
+
+
+
+How to create a Rails Api?
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
+
+
 
 Things you may want to cover:
 
