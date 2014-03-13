@@ -1,27 +1,38 @@
 == Rails Api
 
-rails-api
+rails-api:
 https://github.com/rails-api/rails-api
 
-rack-cors
+rack-cors:
 https://github.com/cyu/rack-cors
 
-active model serializer
+active model serializer:
 https://github.com/rails-api/active_model_serializers
 
 
 
-How to install it?
+* How to install it?
+
 gem install rails-api
+
 rails-api new api-name
+
 cd api-name
 
 
+* Example
+
 rails g model Event name:string location:string categories:string entries:integer duration:string details:text
+
 rails g model League name:string
+
 rake db:migrate
+
 rails s
+
 curl localhost:3000/events
+
 curl localhost:3000/leagues
+
 
 
